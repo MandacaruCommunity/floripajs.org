@@ -11,6 +11,10 @@
     "type": "git",
     "url": "https://github.com/floripajs/floripajs.org.git"
   },
+  "scripts": {
+    "deploy": "gulp deploy",
+    "dev": "gulp server"
+  },
   "devDependencies": {
     "del": "^2.2.0",
     "graceful-fs": "*",
